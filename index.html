@@ -1,22 +1,38 @@
 <!DOCTYPE html>
 <html>
 <head>
-<meta charset="utf-8">
-<title>index</title>
+    <meta charset="utf-8">
+    <title>个人网页</title>
     <style type="text/css">
-h1 {color:red;}
-p {color:blue;}
+    h1 {color:rgb(251, 255, 0);}
+    h1 {font-size:250%;}
+    p {color:rgb(25, 34, 201);}
+    p {font-size:150%;}
+    p.margin
+    {
+	margin-right:50px;
+	margin-left:200px;
+    }
+    .box{
+        display: flex;
+        width: 1280px;
+        margin:auto;
+    }
+body {background-color:#b0c4de; }
 </style>
 </head>
 <body>
     <h1 style="text-align:center;">我的个人网页</h1>
-    <p>姓名：吕禹锋</p>
-    <p>出生日期：2007年9月30日</p>
-    <p>专业：数据科学与大数据技术</p>
-    <p> 爱好：看书，打篮球，玩游戏，爬山</p>
-    <img src="https://img1.qunarzz.com/travel/d9/1606/2d/69efba7080aaeb9a.jpg_r_720x480x95_405bcfab.jpg" alt="img1.qunarzz.com" width="800" height="600">
-    <p>学习方向：脑机接口</p>
-    <p>希望以后多多关照</p>
- 
+    <div class="box">
+        <div>
+        <p class="margin">姓名：吕禹锋</p>
+        <p class="margin">出生日期：2007年9月30日</p>
+        <p class="margin">专业：数据科学与大数据技术</p>
+        <p class="margin"> 爱好：看书，打篮球，玩游戏，爬山</p>
+        <p class="margin"> 学习方向：脑机接口</p>
+        <p class="margin"> 希望以后多多关照</p>
+        </div>
+    <img style="width: 400px; height: 320px;" src="https://img1.qunarzz.com/travel/d9/1606/2d/69efba7080aaeb9a.jpg_r_720x480x95_405bcfab.jpg" >
+    </div>
 </body>
 </html>
